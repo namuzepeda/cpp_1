@@ -1,7 +1,7 @@
-SRCS			= main.cpp newZombie.cpp randomChump.cpp String.cpp Zombie.cpp
+SRCS			= main.cpp Harl.cpp
 OBJS			= $(SRCS:.cpp=.o)
 
-CXX				= c++
+CXX				= c++ -g3
 RM				= rm -f
 CXXFLAGS		= -Wall -Wextra -Werror -I. -std=c++98
 
